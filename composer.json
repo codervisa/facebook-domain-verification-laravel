@@ -1,0 +1,30 @@
+{
+    "name": "alilor/facebook-domain-verification",
+    "description": "Facebook domain verification package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bakhti ALi",
+            "email": "bakhtiali@alilor.com",
+            "homepage": "https://alilor.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alilor\\FacebookDomainVerification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alilor\\FacebookDomainVerification\\FacebookDomainVerificationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
